@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p {
+        text-align: center;
+        font-size: 60px;
+        font-family: fantasy;
+        color: aliceblue;
+        text-decoration:dotted;
+        border:5px  aliceblue solid;
+        width: fit-content;
+        padding: 30px;
+        border-radius: 20%;
+        background-color: dimgrey;
+        
+    }
+
+    p::after {
+        content: "";
+        color: aliceblue;
+        border-right:5px  aliceblue solid;
+        margin-left: 50px;
+        border-radius: 10%;
+    }
+
+    p::before {
+        content: "";
+        color: aliceblue;
+        border-left:5px  aliceblue solid;
+        margin-right: 50px;
+        border-radius: 10%;
+    }
+
+    body {
+        margin: 0;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+</style>
+<body>
+    <script src="scrpt.js"></script>
+</body>
+</html>
